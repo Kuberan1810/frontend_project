@@ -1,0 +1,325 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+
+
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+header {
+    background-color: white;
+
+}
+
+
+header .container .logo,
+nav,
+ul,
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.logo {
+    margin-left: 400px;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 255);
+    font-weight: 600;
+    font-size: 17px;
+
+}
+
+header .container .logo,
+nav.ul,
+li {
+
+    padding-left: 15px;
+
+}
+
+header .container .logo nav.ul,
+li a:hover {
+
+    color: black;
+
+}
+
+.hero-banner {
+    background-image: url("/images/travel-banner.avif");
+    background-size: cover;
+    padding: 120px;
+    background-position: center center;
+    background-color: rgb(255, 254, 254);
+    color: rgb(8, 8, 8);
+    height: 110px;
+
+
+}
+
+.hero-banner .banner-content {
+    text-align: center;
+
+
+}
+
+.hero-banner .banner-content h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    word-spacing: 8px;
+    letter-spacing: 3px;
+    /* margin: 10px; */
+    margin-bottom: 20px;
+
+
+
+}
+
+.hero-banner .banner-content p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.hero-banner .container .banner-content .cta-button {
+    background-color: rgb(40, 167, 69);
+    color: white;
+    padding-block: 8px;
+    padding-inline: 18px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 10px;
+}
+
+.hero-banner .container .banner-content .cta-button:hover {
+    color: black;
+    background-color: white;
+    border: solid 1px;
+}
+
+.content-section {
+    background-color: rgb(213, 223, 225);
+    margin-left: auto;
+    margin-right: auto;
+    height: 190px;
+    margin-top: 35px;
+    padding: 30px;
+
+
+}
+
+.content-section .container h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+    word-spacing: 9px;
+
+}
+
+.content-section .container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 23px;
+    padding: 10px;
+    inline-size: 650px;
+    margin-left: 265px;
+    word-spacing: 2px;
+    color: rgb(47, 46, 46);
+}
+
+.content-section .container p:hover {
+    color: rgb(0, 0, 0);
+}
+
+.features-section {
+    background-color: rgb(207, 247, 247);
+    margin-top: 30px;
+    text-align: center;
+    height: 190px;
+    padding-top: 40px;
+}
+
+.features-section .container h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.feature-grid .feature-item {
+    display: inline-block;
+    background-color: aliceblue;
+    padding: 15px;
+    margin-top: 25px;
+    margin-inline: 10px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(167, 234, 234);
+
+
+
+}
+
+.product-showcase .container {
+    h3 {
+        margin-top: 70px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 23px;
+        word-spacing: 1px;
+    }
+}
+
+.feature-icon {
+    font-size: 18px;
+    color: blue;
+}
+
+.product-grid {
+    text-align: center;
+
+}
+.feature-grid .feature-item:hover{
+   
+    background-color: rgb(232, 242, 250);
+    
+
+}
+
+.product-card {
+    display: inline-block;
+    background-color: rgb(245, 248, 248);
+    max-width: 195px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(227, 225, 225);
+    text-align: center;
+    margin: 40px 10px 20px 10px;
+
+}
+
+.product-card img {
+    width: 190px;
+    height: 120px;
+    padding: 5px;
+    border: 2px solid rgb(209, 207, 207);
+    border-radius: 5px;
+
+}
+
+.product-grid .product-card h4 {
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: 18px;
+
+
+}
+
+.product-grid .product-card p {
+    color: grey;
+    font-size: 15px;
+    padding-block: 10px 30px;
+}
+
+.product-grid .product-card span {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    color: rgb(255, 28, 28);
+    font-weight: 900;
+    font-size: 16px;
+
+}
+.product-grid .product-card:hover{
+     background-color: rgb(236, 243, 243);
+}
+.product-grid .product-card .add-to-cart {
+
+    background-color: rgb(50, 123, 255);
+    padding-inline: 20px;
+    padding-block: 10px;
+    border: 1px solid rgb(50, 123, 255);
+    border-radius: 4px;
+    margin-top: 15px;
+    color: white;
+
+}
+
+.product-grid .product-card .add-to-cart:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+
+}
+
+.tags-section {
+    background-color: rgb(211, 240, 250);
+    height: 250px;
+    margin-block: 80px 30px;
+}
+
+.tags-section .container h3 {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: px;
+    padding-block: 40px 30px;
+}
+
+.tags-section .container .tag {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    background-color: rgb(199, 230, 242);
+    border: 1px solid rgb(70, 203, 248);
+    color: rgb(50, 123, 255);
+    border-radius: 50px;
+    padding-inline: 22px;
+    padding-block: 8px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+
+
+
+}
+
+.tags-section .container .tag1 {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    background-color: rgb(199, 230, 242);
+    border: 1px solid rgb(70, 203, 248);
+    color: rgb(50, 123, 255);
+    border-radius: 50px;
+    padding-inline: 22px;
+    padding-block: 8px;
+    margin-left: 480px;
+
+
+
+}
+footer{
+    background-color: rgb(34, 33, 33);
+    padding: 25px;
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    word-spacing: 1px;
+}
+.tags-section .tag-list span[class="tag"]:hover{
+    background-color: white;
+}
+.tags-section .tag-list span[class="tag1"]:hover{
+    background-color: white;
+}

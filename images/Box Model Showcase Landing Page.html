@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/box-model.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Model Showcase Landing Page</title>
+  <link rel="stylesheet" href="./Box Model Showcase Landing Page_files/box-model.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">Your Logo</div>
+      <nav>
+        <ul>
+          <li><a href="http://127.0.0.1:5500/box-model.html#">Home</a></li>
+          <li><a href="http://127.0.0.1:5500/box-model.html#">Products</a></li>
+          <li><a href="http://127.0.0.1:5500/box-model.html#">About Us</a></li>
+          <li><a href="http://127.0.0.1:5500/box-model.html#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-banner">
+    <div class="container">
+      <div class="banner-content">
+        <h1>Discover Our Amazing Products</h1>
+        <p>Explore a wide range of high-quality items designed to enhance your life.</p>
+        <button class="cta-button">Shop Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container">
+      <h2>Understanding the Box Model</h2>
+      <p>In CSS, every element is treated as a rectangular box. The Box Model describes how these boxes are rendered on
+        the page, including their content, padding, border, and margin. Understanding this model is crucial for
+        effective layout and spacing in web design. Padding is the space between the content and the border. The border
+        is a line around the padding and content. Margin is the space outside the border, separating the element from
+        other elements.</p>
+    </div>
+  </section>
+
+  <section class="features-section">
+    <div class="container">
+      <h3>Our Key Features</h3>
+      <div class="feature-grid">
+        <div class="feature-item">
+          <i class="fas fa-truck feature-icon"></i>
+          <p class="feature-text">Fast Shipping</p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-headset feature-icon"></i>
+          <p class="feature-text">24/7 Support</p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-shield-alt feature-icon"></i>
+          <p class="feature-text">Secure Payments</p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-dollar-sign feature-icon"></i>
+          <p class="feature-text">Best Prices</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="product-showcase">
+    <div class="container">
+      <h3>Featured Products</h3>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="./Box Model Showcase Landing Page_files/food2.jpg" alt="Product 1">
+          <h4>Product Title 1</h4>
+          <p>A short description of product 1.</p>
+          <span class="price">$29.99</span>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./Box Model Showcase Landing Page_files/food1.avif" alt="Product 2">
+          <h4>Product Title 2</h4>
+          <p>A short description of product 2.</p>
+          <span class="price">$49.99</span>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./Box Model Showcase Landing Page_files/food3.jpg" alt="Product 3">
+          <h4>Product Title 3</h4>
+          <p>A short description of product 3.</p>
+          <span class="price">$19.99</span>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tags-section">
+    <div class="container">
+      <h3>Popular Tags</h3>
+      <div class="tag-list">
+        <span class="tag">Electronics</span>
+        <span class="tag">Apparel</span>
+        <span class="tag">Home Goods</span>
+        <span class="tag">Books</span>
+        <span class="tag">Gaming</span>
+        <span class="tag">Outdoor</span>
+        <span class="tag">Fitness</span>
+        <span class="tag">Kitchen</span>
+        <span class="tag">Beauty</span>
+        <span class="tag">Jewelry</span>
+        <span class="tag1">Kids Toys</span>
+        <span class="tag">Automotive</span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Box Model Showcase. All rights reserved.</p>
+    </div>
+  </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

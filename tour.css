@@ -455,6 +455,9 @@
          margin-left: 550px;
      }
  } */
+  .social i{
+     margin-left: 15px;
+  }
 
  @media screen and (max-width: 992px) {
      /* .container {   
@@ -746,7 +749,11 @@
          border: none;
 
      }
-
+.social i,
+     p {
+        
+         margin-left: 15px;
+     }
 
  }
 
@@ -963,7 +970,7 @@
      .social i,
      p {
          font-size: 15px;
-         margin-left: 20px;
+         margin-left: 15px;
      }
 
  }

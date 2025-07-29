@@ -1,0 +1,658 @@
+* {
+   text-decoration: none;
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+   list-style: none;
+   font-family: "Public Sans", sans-serif;
+
+}
+
+.container {
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+header {
+   width: 100%;
+   background-color: white;
+   position: relative;
+   z-index: 100;
+   position: fixed;
+   /* box-shadow: 2px 2px 20px hsl(233, 8%, 62%); */
+}
+
+.hamburger,
+.close {
+   display: none;
+}
+
+.container .nav-container {
+   display: flex;
+   justify-content: space-between;
+   padding-block: 35px;
+
+
+
+}
+
+.menu ul {
+   display: flex;
+   gap: 30px;
+
+}
+
+.menu ul li a {
+   color: hsl(233, 8%, 62%);
+}
+
+.menu ul li a::after {
+   content: "";
+   color: hsl(136, 100%, 50%);
+   width: 200px;
+   height: 20px;
+
+
+}
+
+.menu ul li a:hover {
+
+   color: hsl(233, 26%, 24%);
+}
+
+.invite-btn a {
+   color: hsl(0, 0%, 100%);
+   /* background-color:  hsl(136, 65%, 51%); */
+   background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+   padding: 15px 25px;
+   border-radius: 100px;
+   font-size: 18px;
+   font-family: 300px;
+}
+
+.logo {
+   align-items: flex-start;
+}
+
+section {
+   background-color: hsl(0, 0%, 98%);
+}
+
+.main-content {
+   display: flex;
+   justify-content: space-between;
+}
+
+.bank-det h1 {
+   font-weight: 400;
+   font-size: 36px;
+   inline-size: 300px;
+   color: hsl(233, 26%, 24%);
+   margin-bottom: 20px;
+}
+
+.bank-det p {
+   color: hsl(233, 8%, 62%);
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 30px;
+   inline-size: 350px;
+}
+
+.bank-ad {
+   display: flex;
+   height: 720px;
+   position: relative;
+   z-index: 10;
+
+
+}
+
+.main-content .bank-det .invite-btn a {
+   padding: 10px 15px;
+   font-size: 12px;
+
+
+}
+
+
+.main-content .bank-det {
+   margin-top: 150px;
+
+}
+
+.bg-ad-mob {
+   display: none;
+}
+
+.bg-ad {
+   height: 900px;
+   position: absolute;
+   top: -250px;
+   right: -400px;
+
+
+}
+
+.mob-ad {
+   position: absolute;
+   top: -180px;
+   right: -250px;
+
+}
+
+.bank-flow {
+   overflow: hidden;
+}
+
+.spec-section {
+   background-color: hsl(220, 16%, 96%);
+   position: relative;
+   top: -180px;
+}
+
+.esaybank {
+   padding-top: 120px;
+
+}
+
+.esaybank .bank-spec h2 {
+   font-size: 34px;
+   font-weight: 300;
+   margin-bottom: 30px;
+}
+
+.esaybank .bank-spec p {
+   color: hsl(233, 8%, 62%);
+   font-size: 18px;
+   line-height: 22px;
+   font-weight: 400;
+   margin-bottom: 30px;
+   inline-size: 500px;
+}
+
+.bank-feature {
+   display: flex;
+   justify-content: space-between;
+   flex-flow: row wrap;
+
+
+}
+
+.bank-feature .topic {
+   flex-basis: 22%;
+   padding-bottom: 60px;
+   padding-top: 30px;
+
+}
+
+.bank-feature .topic h3 {
+   padding-block: 20px;
+   font-weight: 400;
+   font-size: 22px;
+   color: hsl(233, 26%, 24%);
+
+}
+
+.bank-feature .topic p {
+   color: hsl(233, 8%, 62%);
+   font-size: 16px;
+   line-height: 22px;
+   margin-bottom: 30px;
+   inline-size: 265px;
+   font-weight: 400;
+}
+
+.sub-heading h2 {
+   font-weight: 400;
+   font-size: 36px;
+   color: hsl(233, 26%, 24%);
+   margin-top: -180px;
+   padding-top: 100px;
+   padding-bottom: 50px;
+}
+
+.container .article {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+
+
+}
+
+.article .box {
+   flex-basis: 23%;
+   margin-bottom: 80px;
+   background-color: hsl(0, 0%, 100%);
+
+
+
+}
+
+.article .box img {
+   width: 100%;
+   height: 50%;
+   object-fit: cover;
+   border-radius: 5px;
+}
+
+.article .box .article-cont {
+   padding: 20px;
+}
+
+.article .box .article-cont p {
+   color: hsl(233, 8%, 62%);
+   font-size: 12px;
+   line-height: 22px;
+   margin-bottom: 10px;
+}
+
+.article .box .article-cont h3 {
+   font-weight: 400;
+   font-size: 18px;
+   inline-size: 80%;
+   color: hsl(233, 26%, 24%);
+   margin-bottom: 10px;
+}
+
+.article .box .article-cont p.art-para {
+   color: hsl(233, 8%, 62%);
+   font-size: 14px;
+   line-height: 20px;
+   inline-size: 98%;
+   margin-bottom: 30px;
+   font-weight: 400;
+}
+
+footer {
+   background-color: hsl(233, 26%, 24%);
+   padding: 50px 0;
+}
+
+.logo-social {
+   display: flex;
+   justify-content: space-between;
+   flex-flow: row wrap;
+}
+
+.logo-social .foot-logo {
+   margin-bottom: 50px;
+}
+
+.logo-social .social-icon a img {
+   max-width: 18px;
+   margin-left: 10px;
+}
+
+.logo-social .foot-menu {
+   display: flex;
+   flex-flow: row wrap;
+   gap: 150px;
+   margin-right: 150px;
+
+}
+
+.logo-social .foot-menu ul li {
+   margin-bottom: 16px;
+   color: hsl(0, 0%, 100%);
+   font-weight: 300;
+   font-size: 16px;
+
+}
+
+.foot-end .invite-btn {
+   margin-bottom: 50px;
+}
+
+.foot-end .invite-btn a {
+
+   padding: 13px 30px;
+   font-size: 14px;
+}
+
+.copyrights p {
+   color: hsl(233, 8%, 62%);
+   font-size: 14px;
+
+}
+
+copyrights {}
+
+.foot-end {
+   text-align: end;
+}
+
+.invite-btn a:hover {
+   background: linear-gradient(to right, hsl(136, 88%, 69%), hsl(194, 74%, 77%));
+   color: hsl(0, 0%, 100%);
+
+
+}
+
+.foot-menu .sub-menu ul li:hover {
+   color: hsl(136, 65%, 51%);
+   transition: color 0.3s ease;
+   cursor: pointer;
+}
+
+.social-icon img:hover {
+   color: hsl(136, 65%, 51%);
+
+}
+
+.bank-feature .topic h3:hover {
+   transition: 0.5s linear;
+   color: hsl(136, 65%, 51%);
+   cursor: pointer;
+}
+
+h1:hover,
+h2:hover,
+h3:hover {
+   transition: color 0.3s ease;
+   color: hsl(136, 65%, 51%);
+   cursor: pointer;
+}
+
+.article .box:hover {
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   cursor: pointer;
+   transform: translateY(-5px);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   transform: rotateX(5deg) rotateY(5deg) scale(1.05)
+}
+
+.article .article-cont h3:hover {
+   color: hsl(136, 65%, 51%);
+   transition: color 0.3s ease;
+}
+
+@media screen and (max-width: 375px) {
+   header {
+      /* margin-block: 10px; */
+      padding-block: 15px;
+   }
+
+   .menu {
+      display: none;
+      position: absolute;
+      top: 200px;
+      left: 50%;
+      right: 50%;
+      transform: translate(-50%, -50%);
+      padding: 50px 150px;
+      z-index: 100;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 10px;
+   }
+
+   .menu ul {
+
+      /* display: flex; */
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      z-index: 101;
+
+
+   }
+
+   .menu ul li a {
+      color: hsl(233, 26%, 24%);
+      font-weight: 400;
+   }
+
+   .menu ul li a:hover {
+      color: hsl(233, 8%, 62%);
+   }
+
+   .container .nav-container {
+
+      padding-block: 0px;
+
+
+
+   }
+
+
+   .nav-container .invite-btn a {
+      display: none;
+   }
+
+   .logo {
+      align-items: flex-start;
+      margin-left: 15px;
+   }
+
+   .bank-ad {
+      z-index: 0;
+
+   }
+
+   .hamburger {
+      display: block;
+      margin-right: 15px;
+      margin-top: 5px;
+
+   }
+
+   .hide-hamburger {
+      display: none;
+   }
+
+   .close {
+      display: none;
+      margin-right: 20px;
+   }
+
+   .show-menu {
+      display: block;
+   }
+
+
+
+   .bank-ad {
+
+      height: 0px;
+
+
+
+   }
+
+   .main-content {
+      justify-content: center;
+
+   }
+
+   .main-content .bank-det {
+      align-self: center;
+      margin-top: 370px;
+      text-align: center;
+
+   }
+
+   .bank-det h1 {
+      font-weight: 400;
+      font-size: 36px;
+      inline-size: 300px;
+      color: hsl(233, 26%, 24%);
+      margin-bottom: 20px;
+   }
+
+   .bank-det p {
+      font-size: 12px;
+      inline-size: 280px;
+      text-align: center;
+   }
+
+   .bg-ad {
+      display: none;
+   }
+
+   .bg-ad-mob {
+      position: absolute;
+      display: block;
+      top: -120px;
+      right: -50px;
+      width: 450px;
+   }
+
+   .mob-ad {
+      width: 350px;
+      position: absolute;
+      top: -70px;
+      right: -25px;
+
+   }
+
+   .spec-section {
+      position: static;
+
+   }
+
+   .esaybank {
+      padding-top: 50px;
+
+
+   }
+
+   .esaybank .bank-spec p {
+
+      inline-size: 300px;
+   }
+
+   .main-content .invite-btn {
+      margin-bottom: 60px;
+   }
+
+   .bank-spec {
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+   }
+
+   .esaybank .bank-spec h2 {
+      font-size: 34px;
+      font-weight: 300;
+      margin-bottom: 30px;
+      inline-size: 200px;
+
+   }
+
+   .esaybank .bank-spec p {
+      font-size: 14px;
+      margin-bottom: 30px;
+      inline-size: 300px;
+      text-align: center;
+   }
+
+   .bank-feature {
+      justify-content: center;
+
+   }
+
+   .bank-feature .topic {
+      text-align: center;
+      padding-bottom: 30px;
+      padding-top: 20px;
+   }
+
+
+
+   .bank-feature .topic p {
+
+      font-size: 14px;
+      margin-bottom: 0px;
+      inline-size: 320px;
+   }
+
+   .sub-heading h2 {
+      margin-top: 0px;
+      padding-top: 80px;
+      padding-bottom: 50px;
+   }
+
+   .sub-heading {
+      text-align: center;
+   }
+
+
+
+   .container .article {
+      flex-flow: column wrap;
+      align-items: space-between;
+      justify-content: center;
+   }
+
+   .article .box {
+      margin-bottom: 0px;
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      margin: 25px;
+   }
+
+
+
+
+   .article .box .article-cont {
+      margin: 20px;
+      padding: 0px;
+   }
+
+   .article .box .article-cont p {
+      line-height: 22px;
+   }
+
+   .article .box .article-cont h3 {
+      inline-size: 85%;
+      font-size: 16px;
+   }
+
+   .article .box .article-cont p.art-para {
+      inline-size: 88%;
+   }
+
+   .article .box1 {
+      margin-bottom: 80px;
+   }
+
+   .logo-social {
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: column wrap;
+   }
+
+   .logo-social .social-icon {
+      margin-bottom: 20px;
+   }
+
+   .logo-social .foot-logo {
+      margin-bottom: 30px;
+   }
+
+   .logo-social .foot-menu {
+      flex-flow: column wrap;
+      margin-right: 0px;
+      gap: 0px;
+      align-items: center;
+      justify-items: center;
+      text-align: center;
+      margin-bottom: 30px;
+   }
+
+   .logo-social .foot-menu ul li {
+
+      font-size: 14px;
+
+   }
+
+   .foot-end {
+      text-align: center;
+   }
+}
